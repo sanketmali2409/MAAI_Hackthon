@@ -1,0 +1,28 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+.maai_test_key
+*.key
+*.pem
+
+# Node
+node_modules/
+.next/
+npm-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Editor / OS
+.DS_Store
+*.log
+.idea/
+.vscode/
